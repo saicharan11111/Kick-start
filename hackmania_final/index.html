@@ -1,0 +1,442 @@
+<html>
+	<head>
+		<title>www.kickstart.com</title>
+		<style>
+			
+			body{
+				background-color: lightblue;
+				margin: 0;
+				padding: 0;
+				font-family: arial;
+      }
+   ul{
+ 	float: right;
+   list-style-type: none;
+    margin-top: 30px;
+ }
+ ul li{
+ 	display: inline-block;
+ }
+ ul li a{
+ 	text-decoration: none;
+ 	color: white;
+ 	padding: 5px 30px;
+ 	border: 1px solid transparent;
+ 	transition: 0.5s ease;
+}
+ ul li a:hover{
+ 	background-color: white;
+    color: black;
+  }
+  ul li.active a{
+  background-color: white;
+    color: black;
+ }
+ .main{
+ 	max-width: 1200px;
+ 	margin: auto;
+
+			}
+
+			.container{
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100vh;
+				animation: animate 16s ease-in-out infinite;
+				background-size: cover;
+			}
+
+			.outer{
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100vh;
+				background: rgba(0,0,0,0.5)
+			}
+
+			.details{
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				text-align: center;
+			}
+
+			.details h1{
+				font-size: 4em;
+				color: #fff;
+			}
+
+			.details h2{
+				text-transform: capitalize;
+				color: #fff;
+            }
+            .btn{
+            	text-decoration: none;
+            	color: white;
+            	padding: 5px 30px;
+ 	            border: 1px solid transparent;
+                transition: 0.5s ease;
+ 	            
+            }
+            .button a:hover{
+            	background-color: purple;
+                color: white;
+            }
+
+
+			@keyframes animate{
+				0%,100%{
+					background-image: url(slidephotos/a6.jpg);
+				}
+				20%{
+					background-image: url(slidephotos/a2.jpg);
+				}
+				40%{
+					background-image: url(slidephotos/a3.jpg);
+				}
+				60%{
+					background-image: url(slidephotos/a4.jpg);
+				}
+				80%{
+					background-image: url(slidephotos/a5.jpg);
+				}
+				100%{
+					background-image: url(slidephotos/a1.jpg);
+				}
+			}
+                                           
+                                     
+                                          .search1 input[type=text] {
+                                           padding: 6px;
+                                           position: absolute;
+                                           background-color: white;
+                                            top: 75%;
+                                           left: 600px;
+                                            font-size: 15px;
+                                           }
+                                          .search1 input[type=text] {
+                                            border: 1px solid red;  
+                                            
+                                            }
+                                          .search2 input[type=submit] {
+                                           padding: 6px;
+                                           position: absolute;
+                                           background-color: white;
+                                            top: 75%;
+                                           left: 790px;
+                                            font-size: 15px;
+                                           }
+                                          .search2 input[type=submit] {
+                                            border: 1px solid red;
+                                          }
+                                            
+
+
+
+
+  .content1{
+  margin: 530px auto;
+  position: relative;
+  margin-top: 900px;
+  margin-left: 50px;
+  padding: 0 20px;
+}
+.content1 .text{
+  font-size: 20px;
+  font-weight: 600;
+  color: green;
+}
+.content1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: black;
+}
+                                        img{
+margin-top: 50px;
+margin-left: 50px;
+ background-position: center;
+ width: 400px;
+}
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: lightblue;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #f12020;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form .msgForm{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: white;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form .msgForm:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: green;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background:  white;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+/*.logo{
+ position: absolute;
+ top: 5%;
+ left: 5%;
+}*/
+		</style>
+ }
+	</head>
+	<body>
+		<div class="container">
+
+<div class="logo">
+        <!--   <img src="logo.png"> -->
+        </div>
+
+     <div class="outer">
+ 
+      
+
+<div class="main">
+        <ul>
+      		<li class="active"><a href="#">Home</a></li>
+      		<li><a href="studentdemo.html">Apply </a></li>
+      		<li><a href="orgnizer.html">Post a job </a></li>
+      		<li><a href="Contact/contactus.html">Contact Us</a></li>
+      	</ul>
+      </div>
+
+
+				<div class="details">
+					<h1><b>Your Dream</b>
+                       <div> JOB is Waiting</div>
+					</h1>
+					<div class="button">
+      	             <a href="login.html" class="btn">Login</a>
+                   	<a href="signup.html" class="btn">Register</a>
+                    </div>
+				</div>
+			</div>
+		</div>
+
+                                
+                                  <div class="search1">
+                                <input type="text" placeholder="Search a job.."></div>
+                                <div class="search2">
+                                <input type="submit" value="search"></div>
+   
+
+
+		</body>
+
+<div class="content1">
+      <div class="text">
+ <div class="p">We have...</div> <br>      
+Students:  100k+ <br><br>
+Organizers: 10k<br><br>
+companies: 1k</div><br><br>
+<div class="p">
+Top most companies..</div>
+  <img src="img/company2.jpg">
+  <img src="img/company5.jpg">
+  <img src="img/company1.jpg">
+ <div> <img src="img/company3.jpg">
+  <img src="img/company7.jpg">
+  <img src="img/company8.jpg"></div><br>
+  <div class="p">Recently added jobs..</div><br>
+  <label>click on image to know more details about job</label><br>
+  <a href="studentdemo.html"><img src="img/jobimg1.jpg"></a>
+  <a href="studentdemo.html"><img src="img/jobimg6.jpg"></a>
+</div>
+
+
+<footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>
+About us</h2>
+<div class="content">
+            <p>
+here we are a simply interface to the students and organizers to acess the latest job notifications.</p>
+<div class="social">
+              <a href="https://facebook.com"><span class="fab fa-facebook-f"></span></a>
+              <a href="#"><span class="twitter"></span></a>
+              <a href="https://instagram.com"><span class="fab fa-instagram"></span></a>
+              <a href="https://youtube.com"><span class="fab fa-youtube"></span></a>
+            </div>
+</div>
+</div>
+<div class="center box">
+          <h2>
+Address</h2>
+<div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Telangana,india</span>
+            </div>
+<div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">+91 1234567890</span>
+            </div>
+<div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">abc@example.com</span>
+            </div>
+</div>
+</div>
+<div class="right box">
+          <h2>
+Contact us</h2>
+<div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">
+Email *</div>
+<input type="email" required>
+              </div>
+<div class="msg">
+                <div class="text">
+Message *</div>
+<changeit id=".msgForm" rows="2" cols="25" required></changeit>
+              
+              <br />
+<div class="btn">
+<button type="submit">Send</button>
+              </div>
+
+
+	
+</html>
